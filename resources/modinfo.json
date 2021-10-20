@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "extraoverlays",
+  "name": "Extra Overlays",
+  "authors": ["DArkHekRoMaNT"],
+  "description": "Added health bar for mobs",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.15.0"
+  },
+  "website": "https://github.com/DArkHekRoMaNT/ExtraOverlays",
+  "side": "client"
+}
