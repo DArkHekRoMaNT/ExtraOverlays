@@ -1,3 +1,3 @@
 # MoreOverlays
 
-### Links: [ModDB](https://mods.vintagestory.at/extraoverlays)
+### [ModDB](https://mods.vintagestory.at/extraoverlays)
