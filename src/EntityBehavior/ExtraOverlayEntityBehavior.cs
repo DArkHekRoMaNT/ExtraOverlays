@@ -1,9 +1,5 @@
-using System;
 using Vintagestory.API.Client;
-using Vintagestory.API.Common;
 using Vintagestory.API.Common.Entities;
-using Vintagestory.API.Config;
-using Vintagestory.API.Datastructures;
 
 namespace MoreOverlays
 {
@@ -34,5 +30,11 @@ namespace MoreOverlays
         }
 
         public override string PropertyName() => "extraoverlay";
+
+        public override void OnEntityDespawn(EntityDespawnReason despawn)
+        {
+            base.OnEntityDespawn(despawn);
+            Api.Event.UnregisterRenderer(HealthBarRenderer, EnumRenderStage.Ortho);
+        }
     }
 }

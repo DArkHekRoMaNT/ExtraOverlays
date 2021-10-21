@@ -4,7 +4,7 @@
   "name": "Extra Overlays",
   "authors": ["DArkHekRoMaNT"],
   "description": "Added health bar for mobs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "dependencies": {
     "game": "1.15.0"
   },
