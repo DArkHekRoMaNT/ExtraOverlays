@@ -3,7 +3,7 @@ using Vintagestory.API.Client;
 using Vintagestory.API.Common.Entities;
 using Vintagestory.API.MathTools;
 
-namespace MoreOverlays
+namespace ExtraOverlays
 {
     public class HealthBarRenderer : IRenderer
     {

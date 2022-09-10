@@ -2,7 +2,7 @@
 using Vintagestory.API.Client;
 using Vintagestory.API.Common;
 
-namespace MoreOverlays
+namespace ExtraOverlays
 {
     public class Core : ModSystem
     {

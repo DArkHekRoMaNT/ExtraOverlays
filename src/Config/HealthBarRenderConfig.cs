@@ -1,6 +1,6 @@
 using Vintagestory.API.MathTools;
 
-namespace MoreOverlays
+namespace ExtraOverlays
 {
     public class HealthBarRenderConfig
     {

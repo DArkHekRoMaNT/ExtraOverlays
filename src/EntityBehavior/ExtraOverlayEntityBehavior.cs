@@ -1,7 +1,7 @@
 using Vintagestory.API.Client;
 using Vintagestory.API.Common.Entities;
 
-namespace MoreOverlays
+namespace ExtraOverlays
 {
     public class ExtraOverlayEntityBehavior : EntityBehavior
     {
