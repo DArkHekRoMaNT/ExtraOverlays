@@ -1,0 +1,21 @@
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema https://raw.githubusercontent.com/DArkHekRoMaNT/VSMods/master/Mod.xsd">
+	<PropertyGroup>
+		<Name>Extra Overlays</Name>
+		<ModId>extraoverlays</ModId>
+		<Version>1.2.0</Version>
+		<Authors>DArkHekRoMaNT</Authors>
+		<GameVersion>1.18.0-pre.7</GameVersion>
+		<Description>Adds a health bar for mobs</Description>
+		<Side>Client</Side>
+		<Website>https://github.com/DArkHekRoMaNT/ExtraOverlays</Website>
+	</PropertyGroup>
+	<ItemGroup>
+		<Dependencies Include="commonlib">
+			<Version>1.0.3</Version>
+		</Dependencies>
+
+		<!--IncludeFiles Include="modicon.png" /-->
+		<IncludeFiles Include="LICENSE" />
+		<IncludeFiles Include="README.md" />
+	</ItemGroup>
+</Project>
