@@ -2,19 +2,19 @@
 	<PropertyGroup>
 		<Name>Extra Overlays</Name>
 		<ModId>extraoverlays</ModId>
-		<Version>1.2.0</Version>
+		<Version>1.3.0</Version>
 		<Authors>DArkHekRoMaNT</Authors>
-		<GameVersion>1.18.0-pre.7</GameVersion>
+		<GameVersion>1.18.0-rc.1</GameVersion>
 		<Description>Adds a health bar for mobs</Description>
 		<Side>Client</Side>
 		<Website>https://github.com/DArkHekRoMaNT/ExtraOverlays</Website>
 	</PropertyGroup>
 	<ItemGroup>
 		<Dependencies Include="commonlib">
-			<Version>1.0.4</Version>
+			<Version>2.0.0</Version>
 		</Dependencies>
 
-		<!--IncludeFiles Include="modicon.png" /-->
+		<IncludeFiles Include="modicon.png" />
 		<IncludeFiles Include="LICENSE" />
 		<IncludeFiles Include="README.md" />
 	</ItemGroup>

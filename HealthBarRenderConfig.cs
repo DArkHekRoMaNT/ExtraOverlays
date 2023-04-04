@@ -2,21 +2,21 @@ using CommonLib.Config;
 
 namespace ExtraOverlays
 {
-    [Config("extraoverlay.json")]
+    [Config("extraoverlays.json")]
     public class HealthBarRenderConfig
     {
-        [ConfigItem(typeof(float), 0.2f)] public float FadeIn { get; set; }
-        [ConfigItem(typeof(float), 0.4f)] public float FadeOut { get; set; }
+        public float FadeIn { get; set; } = 0.2f;
+        public float FadeOut { get; set; } = 0.4f;
 
-        [ConfigItem(typeof(float), 100)] public float Width { get; set; }
-        [ConfigItem(typeof(float), 10)] public float Height { get; set; }
-        [ConfigItem(typeof(float), 10)] public float YOffset { get; set; }
+        public float Width { get; set; } = 100;
+        public float Height { get; set; } = 10;
+        public float YOffset { get; set; } = 10;
 
-        [ConfigItem(typeof(string), "#7FBF7F")] public string HighHPColor { get; set; }
-        [ConfigItem(typeof(string), "#BFBF7F")] public string MidHPColor { get; set; }
-        [ConfigItem(typeof(string), "#BF7F7F")] public string LowHPColor { get; set; }
+        public string HighHPColor { get; set; } = "#7FBF7F";
+        public string MidHPColor { get; set; } = "#BFBF7F";
+        public string LowHPColor { get; set; } = "#BF7F7F";
 
-        [ConfigItem(typeof(float), 0.25f)] public float LowHPThreshold { get; set; }
-        [ConfigItem(typeof(float), 0.5f)] public float MidHPThreshold { get; set; }
+        public float LowHPThreshold { get; set; } = 0.25f;
+        public float MidHPThreshold { get; set; } = 0.5f;
     }
 }
